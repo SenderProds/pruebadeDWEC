@@ -1,0 +1,12 @@
+echo "# PruebaGIT2" >> README.md --> Crear README
+git init --> Crea el directorio oculto de git
+git add README.md --> Pasa al starging area el archivo
+git commit -m "first commit" --> Pasa al repositorio local
+git branch -M main --> Crear la rama principal
+git remote add origin [URL] --> Conectamos el repositorio local con el remoto
+git push -u origin main --> Se suben los cambios locales al repositorio remoto
+git checkout -b [Nombre Nueva Rama]
+
+
+
+git merge [Nombre de rama] --> Fusionar rama
